@@ -1,0 +1,29 @@
+.background-image-container {
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-image: url('./assets/hualien4.jpg');
+    
+    /* Make this container the positioning context */
+    position: relative;
+    /* This will be below the navbar */
+    z-index: 1;
+}
+
+.main-container {
+    position: relative;
+    z-index: 1;   
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 1rem auto;
+    justify-content: space-between;
+}
+
+.intro-container {
+    width: 40%;
+}
+
+.links-container {
+    width: 40%;
+}
