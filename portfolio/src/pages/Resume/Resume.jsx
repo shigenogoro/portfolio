@@ -4,6 +4,7 @@ import umassLogo from '../../assets/logo/umass_seal.png';
 import nthuLogo from "../../assets/logo/nthu_logo.png";
 import ndhuLogo from "../../assets/logo/ndhu_logo.png";
 import fan2seeLogo from "../../assets/logo/fan2see_logo_big_crop.png"
+import giantsLogo from "../../assets/logo/hualien_giants.png"
 
 const Resume = () => {
     const umassDes = ["MS in Computer Science | 2026"];
@@ -13,6 +14,9 @@ const Resume = () => {
         "Minor in Computer Science | 2020"
     ];
     const fan2seeDes = ["Co-founder, Full Stack Engineer | 2021-2022"]
+    const giantsDes = [
+        "Inline Hockey Coach, Hualien County | 2017-2020",
+    ]
 
     return (
         <div>
@@ -49,11 +53,18 @@ const Resume = () => {
                     imgSrc={fan2seeLogo}
                     imgAlt="Fan2see Logo"
                 />
+
+                <Card 
+                    title="Hualien Giants Hockey Club"
+                    descriptions={giantsDes}
+                    imgSrc={giantsLogo}
+                    imgAlt="Hualien Giants' Logo"
+                />
             </section>
 
-            <section className="sec-container">
+            {/* <section className="sec-container">
                 <h3 className="sec-title">Selected Project</h3>
-            </section>
+            </section> */}
         </div>
     )
 }
