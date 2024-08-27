@@ -3,37 +3,12 @@
     font-size: 3rem;
 }
 
-.intro-container {
+.sec-container {
     width: 100%;
-    margin: 2.5rem;
-
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    margin: 1rem, auto;
 }
 
-.intro-text-container {
-    width: 550px;
-}
-
-.intro-content {
-    font-size: 1.5rem;
-}
-
-#intro-list-title {
-    font-size: 2rem;
-}
-
-.intro-list {
-    margin: 0.5rem 0;
-}
-
-#img-container {
-    width: 550px;
-    margin: 0.5rem 0;
-}
-
-#myPhoto {
-    width: 100%;
-    background-position: center;
+.sec-title {
+    font-size: 2.5rem;
+    margin: 1.75rem;
 }
