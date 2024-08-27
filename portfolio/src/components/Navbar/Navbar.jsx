@@ -37,7 +37,7 @@ const Navbar = ({ onPageChange }) => {
                 </li>
                 <li className="nav-item">
                     <button className='nav-btn' onClick={() => onPageChange('resume')} style={{color: fontColor}}>
-                        resume
+                        Resume
                     </button>
                 </li>
             </ul>

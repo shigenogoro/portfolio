@@ -2,8 +2,8 @@ import { useState } from 'react'
 import Typewriter from 'typewriter-effect'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
-import Intro from './components/Intro/Intro'
-import Resume from './components/Resume/Resume'
+import Intro from './pages/Intro/Intro'
+import Resume from './pages/Resume/Resume'
 import Links from './components/Links/Links'
 
 
