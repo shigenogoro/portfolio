@@ -22,8 +22,8 @@ const Navbar = ({ onPageChange }) => {
             setBackground('white');
             setFontColor('black');
         } else {
-            setBackground("rgba(0,0,0,0.2)")
-            setFontColor('white')
+            setBackground("rgba(0,0,0,0.2)");
+            setFontColor('white');
         }
     }
 

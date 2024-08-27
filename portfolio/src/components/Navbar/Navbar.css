@@ -5,7 +5,7 @@
     background-color: rgba(0, 0, 0, 0.2);
     z-index: 2;
     color: white;
-    padding: 0.75rem;
+    padding: 0;
 }
 
 .navbar-fixed-top {
@@ -16,11 +16,17 @@
     list-style: none;
     display: flex;
     justify-content: space-start;
+    padding-left: 60px;
 }
 
 .nav-item {
     font-size: 2rem;
     margin: 0 1rem;
+    padding: 1rem;
+}
+
+.nav-item:hover {
+    background-color: rgba(14, 14, 14, 0.2);
 }
 
 .nav-icon {
@@ -30,7 +36,7 @@
 .nav-btn {
     background-color: transparent;
     border: 0;
-    padding: 0.25rem;
+    padding: 0;
     text-decoration: none;
     color: white;
     font-size: 2rem;

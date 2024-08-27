@@ -30,13 +30,13 @@ const Links = () => {
             </div>
 
             <div className="email-container">
-            <a
-                href="mailto:gorowen56@gmail.com"
-                id="footer-email"
-            >
-                <i className="fa fa-envelope email-icon"></i>
-                gorowen56@gmail.com
-            </a>
+                <a
+                    href="mailto:gorowen56@gmail.com"
+                    id="footer-email"
+                >
+                    <i className="fa fa-envelope email-icon"></i>
+                    gorowen56@gmail.com
+                </a>
             </div>
         </div>
     )
