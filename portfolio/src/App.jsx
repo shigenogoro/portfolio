@@ -21,7 +21,7 @@ return (
                               <Typewriter 
                                 options={{
                                     strings: [
-                                        'Sheng-Kai Wen',
+                                        'Sheng-Kai Wen (Kyle)',
                                         'an engineer',
                                         'a hockey player and softball player'
                                     ],
@@ -47,9 +47,7 @@ return (
             </main>
 
             <footer>
-                <div id="main-links">
-                    <Links />
-                </div>
+                <Links />
             </footer>
         </div>
     )
