@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Intro from './components/Intro/Intro'
 import Links from './components/Links/Links'
+import sakura from './assets/photo/sakura.jpg'
 
 const App = () => {
 return (
@@ -22,7 +23,7 @@ return (
                                     strings: [
                                         'Sheng-Kai Wen',
                                         'an engineer',
-                                        'a hockey player and baseball player'
+                                        'a hockey player and softball player'
                                     ],
                                     autoStart: true,
                                     loop: true,
@@ -39,11 +40,17 @@ return (
                         <Intro />
                     </div>
 
-                    <div id="main-links">
-                        <Links />
+                    <div id="img-container">
+                      <img id='myPhoto' src={sakura} alt="Sheng-Kai's Photo" />
                     </div>
                 </div>
             </main>
+
+            <footer>
+                <div id="main-links">
+                    <Links />
+                </div>
+            </footer>
         </div>
     )
 }

@@ -1,6 +1,13 @@
 .links-container {
     width: 500px;
-    margin: 1rem;
+    margin: 0 auto;
+}
+
+.social-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem auto 0 auto;
+    padding: 1rem;
 }
 
 .social-icon {
@@ -9,14 +16,20 @@
 }
 
 .email-container a {
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 2rem;
+    padding: 0 auto;
 }
 
 .email-icon {
     margin: 0.5rem 1rem;
     font-size: 2.5rem;
+}
+
+#footer-email {
+    padding-bottom: 1.5rem;
 }
