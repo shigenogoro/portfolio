@@ -3,7 +3,7 @@ import Typewriter from 'typewriter-effect'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Intro from './components/Intro/Intro'
-import Resume from './pages/Resume/Resume'
+import Resume from './components/Resume/Resume'
 import Links from './components/Links/Links'
 
 
