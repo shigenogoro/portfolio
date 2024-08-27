@@ -1,8 +1,7 @@
 import './Navbar.css';
-import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
-const Navbar = () => {
+const Navbar = ({ onPageChange }) => {
     // State Management
     const [background, setBackground] = useState("rgba(0,0,0,0.2");
     const [fontColor, setFontColor] = useState("white");
@@ -31,14 +30,14 @@ const Navbar = () => {
         <div className="navbar navbar-fixed-top" style={{backgroundColor: background}}>
             <ul id="nav-list">
                 <li className="nav-item">
-                    <Link to={'/'} className="nav-link" style={{color: fontColor}}>
+                    <button className="nav-btn" onClick={() => onPageChange('intro')} style={{color: fontColor}}>
                         <i className="fa fa-home nav-icon" style={{color: fontColor}}></i> Home
-                    </Link>
+                    </button>
                 </li>
                 <li className="nav-item">
-                    <Link to={'/resume/'} className="nav-link" style={{color:fontColor}}>
-                        Resume
-                    </Link>
+                    <button className='nav-btn' onClick={() => onPageChange('resume')} style={{color: fontColor}}>
+                        resume
+                    </button>
                 </li>
             </ul>
         </div>

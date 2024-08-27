@@ -23,10 +23,16 @@
     margin: 0 1rem;
 }
 
-.nav-link {
-    text-decoration: none;
-    color: white;
-}
 .nav-icon {
     color: white;
+}
+
+.nav-btn {
+    background-color: transparent;
+    border: 0;
+    padding: 0.25rem;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
 }

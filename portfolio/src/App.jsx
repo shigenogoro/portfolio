@@ -13,20 +13,23 @@ const App = () => {
 
     // Functions
     const scrollToSection = () => {
-        const showSection = document.querySelector('#main-section');
+        const showSection = document.querySelector('main-section');
         if(showSection) {
-            showSection.scrollIntoView({behavior: 'smooth'});
+            showSection.scrollIntoView({behavior: 'smooth', block: 'end'});
         }
+    }
+
+    const handlePageChange = (pageName) => {
+        setPage(pageName);
+        scrollToSection();
+        console.log(pageName);
     }
 
 
     return (
         <div>
             <header>
-                <Navbar />
-            </header>
-
-            <main>
+                <Navbar onPageChange={handlePageChange} />
                 <section className="background-image-container">
                     <div className="title-container">
                           <h1 id="title">
@@ -47,23 +50,16 @@ const App = () => {
                           </h1>
                     </div>
                 </section>
+            </header>
 
+            <main className="main-section">
+                {
+                    page === 'intro' && <Intro />
+                }
 
-                <section className="main-section">
-                    {
-                        (page === 'intro' || page == '' || page === undefined) && (
-                            <div>
-                                <Intro />
-                            </div>
-                        )
-                    }
-
-                    {
-                        (page === 'resume') && (
-                            <Resume />
-                        )
-                    }
-                </section>
+                {
+                    page === 'resume' && <Resume />
+                }
             </main>
 
             <footer>
