@@ -7,11 +7,19 @@ import fan2seeLogo from "../../assets/logo/fan2see_logo_big_crop.png"
 import giantsLogo from "../../assets/logo/hualien_giants.png"
 
 const Resume = () => {
-    const umassDes = ["MS in Computer Science | 2026"];
-    const nthuDes = ["MS in Physics | 2023"];
+    const umassDes = [
+        "M.S. in Computer Science | 2026"
+    ];
+    const nthuDes = [
+        "M.S. in Physics (GPA: 4.04/4.3) | 2023",
+        "Thesis/Dissertation Topic: Study of Epitaxial Growth of TiₓAl₍₁₋ₓ₎N by Plasma Assisted Molecular Beam Epitaxy"
+    ];
     const ndhuDes = [
-        "BS in Electrical Engineering | 2020",
-        "Minor in Computer Science | 2020"
+        "BS in Electrical Engineering minor in Computer Science (GPA: 4.11/4.5) | 2020",
+        "Sheng-Kai Wen, Wei Chi LU, Chun-Chieh Lin: Resistive Switching Memory Device Composed of an Organic Material - Silver Fungus. Poster presented at IEDMS  | 2019",
+        "President of NDHU Toastmasters Club | 2017-2018",
+        "Received “The Award of Outstanding Academic Performance” (ranked 3ʳᵈ in dept.) | 2017",
+        "TA for Electronic Circuit(I), Microelectronic(I), Digital Logic Design, Semiconductor Devices, Electronic Circuits Lab(I)(II)",
     ];
     const fan2seeDes = ["Co-founder, Full Stack Engineer | 2021-2022"]
     const giantsDes = [
