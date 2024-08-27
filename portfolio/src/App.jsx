@@ -1,19 +1,33 @@
+import { useState } from 'react'
 import Typewriter from 'typewriter-effect'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Intro from './components/Intro/Intro'
+import Resume from './pages/Resume/Resume'
 import Links from './components/Links/Links'
-import sakura from './assets/photo/sakura.jpg'
+
 
 const App = () => {
-return (
+    // State Management
+    const [page, setPage] = useState('intro');
+
+    // Functions
+    const scrollToSection = () => {
+        const showSection = document.querySelector('#main-section');
+        if(showSection) {
+            showSection.scrollIntoView({behavior: 'smooth'});
+        }
+    }
+
+
+    return (
         <div>
             <header>
                 <Navbar />
             </header>
 
             <main>
-                <div className="background-image-container">
+                <section className="background-image-container">
                     <div className="title-container">
                           <h1 id="title">
                               Hello, I am
@@ -32,18 +46,24 @@ return (
                               />
                           </h1>
                     </div>
-                </div>
+                </section>
 
 
-                <div className="main-container">
-                    <div id="main-intro">
-                        <Intro />
-                    </div>
+                <section className="main-section">
+                    {
+                        (page === 'intro' || page == '' || page === undefined) && (
+                            <div>
+                                <Intro />
+                            </div>
+                        )
+                    }
 
-                    <div id="img-container">
-                      <img id='myPhoto' src={sakura} alt="Sheng-Kai's Photo" />
-                    </div>
-                </div>
+                    {
+                        (page === 'resume') && (
+                            <Resume />
+                        )
+                    }
+                </section>
             </main>
 
             <footer>

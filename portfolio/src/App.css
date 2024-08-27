@@ -41,23 +41,11 @@
     animation: type 0.33s infinite;
 }
 
-.main-container {
+.main-section {
     position: relative;
     z-index: 1;   
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
+    width: 90%;
     margin: 1rem auto;
-    justify-content: space-around;
-}
-
-#img-container {
-    margin: 1.25rem 0;
-}
-
-#myPhoto {
-    width: 550px;
-    background-position: center;
 }
 
 .fa {

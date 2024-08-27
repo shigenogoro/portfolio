@@ -1,6 +1,14 @@
 .intro-container {
-    width: 550px;
+    width: 100%;
     margin: 1rem;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.intro-text-container {
+    width: 550px;
 }
 
 .intro-content {
@@ -13,4 +21,14 @@
 
 .intro-list {
     margin: 0.5rem 0;
+}
+
+#img-container {
+    width: 550px;
+    margin: 0.5rem 0;
+}
+
+#myPhoto {
+    width: 100%;
+    background-position: center;
 }
