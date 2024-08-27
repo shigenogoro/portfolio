@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import './Navbar.css';
 import { useEffect, useState } from 'react';
 
