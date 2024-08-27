@@ -46,7 +46,6 @@
     z-index: 1;   
     width: 90%;
     margin: 1rem auto;
-    /* min-height: 100vh; */
 }
 
 .fa {
@@ -66,4 +65,72 @@ footer {
 
 #main-links {
     margin: 0 auto;
+}
+
+@media only screen and (max-width: 500px) {
+    .background-image-container {
+        height: 60vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        
+        /* Make this container the positioning context */
+        position: relative;
+        z-index: 1;
+        
+        /* Add a pseudo-element for the overlay */
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-image: url('./assets/photo/hualien4.jpg');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.6;
+            z-index: -1;
+        }
+    }
+
+    .title-container {
+        width: 325px;
+        height: 150px;
+    
+        position: absolute;
+        top: 20%;
+        right: 5%;
+    }
+
+    #title {
+        font-size: 2.5rem;
+    }
+
+    .main-section {
+        position: relative;
+        z-index: 1;   
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    .fa {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .main-container-title {
+        font-size:1.5rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+    
+    footer {
+        width: 100%;
+        background-color: rgba(13, 64, 101, 0.796);
+    }
+    
+    #main-links {
+        margin: 0 auto;
+    }
 }

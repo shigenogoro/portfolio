@@ -33,3 +33,32 @@
 #footer-email {
     padding-bottom: 1.5rem;
 }
+
+@media only screen and (max-width: 500px) {
+    .links-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .social-container {
+        display: flex;
+        justify-content: space-around;
+        margin: 1rem auto 0 auto;
+        padding: 1rem;
+    }
+    
+    .email-container a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        font-size: 1.5rem;
+        padding: 0 1rem 0 0;
+    }
+    
+    .email-icon {
+        margin: 0.5rem 1rem;
+        font-size: 2rem;
+    }
+}
