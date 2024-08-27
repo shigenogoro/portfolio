@@ -48,7 +48,7 @@ const Resume = () => {
             <section className="sec-container">
                 <h3 className="sec-title">Work Experience</h3>
                 <Card 
-                    title="Fan2see - Personalized Video from Celebrity"
+                    title="Fan2see - Personalized Video Message from Your Favorite Star"
                     descriptions={fan2seeDes}
                     imgSrc={fan2seeLogo}
                     imgAlt="Fan2see Logo"

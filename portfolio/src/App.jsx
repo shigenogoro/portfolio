@@ -13,7 +13,7 @@ const App = () => {
 
     // Functions
     const scrollToSection = () => {
-        const showSection = document.querySelector('main-section');
+        const showSection = document.querySelector('.main-section');
         if(showSection) {
             showSection.scrollIntoView({behavior: 'smooth', block: 'end'});
         }

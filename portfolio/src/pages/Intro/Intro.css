@@ -1,5 +1,5 @@
 .intro-container {
-    width: 100%;
+    width: 95%;
     margin: 2.5rem;
 
     display: flex;
@@ -8,11 +8,14 @@
 }
 
 .intro-text-container {
-    width: 550px;
+    width: 600px;
 }
 
 .intro-content {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    color: rgb(74,74,74);
+    line-height: 2rem;
+    letter-spacing: 0.8px;
 }
 
 #intro-list-title {
@@ -24,11 +27,12 @@
 }
 
 #img-container {
-    width: 550px;
+    width: 500px;
     margin: 0.5rem 0;
 }
 
 #myPhoto {
     width: 100%;
     background-position: center;
+    padding-top: 3rem;
 }
