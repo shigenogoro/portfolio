@@ -2,7 +2,8 @@ import './Resume.css';
 import Card from '../../components/Card/Card'
 import umassLogo from '../../assets/logo/umass_seal.png';
 import nthuLogo from "../../assets/logo/nthu_logo.png";
-import ndhuLogo from "../../assets/logo/ndhu_logo.png"
+import ndhuLogo from "../../assets/logo/ndhu_logo.png";
+import fan2seeLogo from "../../assets/logo/fan2see_logo_big_crop.png"
 
 const Resume = () => {
     const umassDes = ["MS in Computer Science | 2026"];
@@ -11,6 +12,7 @@ const Resume = () => {
         "BS in Electrical Engineering | 2020",
         "Minor in Computer Science | 2020"
     ];
+    const fan2seeDes = ["Co-founder, Full Stack Engineer | 2021-2022"]
 
     return (
         <div>
@@ -41,6 +43,12 @@ const Resume = () => {
 
             <section className="sec-container">
                 <h3 className="sec-title">Work Experience</h3>
+                <Card 
+                    title="Fan2see - Personalized Video from Celebrity"
+                    descriptions={fan2seeDes}
+                    imgSrc={fan2seeLogo}
+                    imgAlt="Fan2see Logo"
+                />
             </section>
 
             <section className="sec-container">

@@ -1,9 +1,13 @@
 .card-container {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 2.5rem auto;
+}
+
+.card-container:hover {
+    box-shadow: 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card-img-container {
@@ -16,6 +20,7 @@
 .card-img {
     width: 250px;
     height: 250px;
+    background-position: center;
 }
 
 .card-intro-container {
@@ -25,6 +30,8 @@
 
 .card-title {
     font-size: 1.5rem;
+    width: 550px;
+    margin-bottom: 0;
 }
 
 .card-list {
