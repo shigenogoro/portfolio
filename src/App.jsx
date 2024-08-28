@@ -11,7 +11,7 @@ import Links from './components/Links/Links'
 const App = () => {
     // State Management
     const [page, setPage] = useState('intro');
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 800);
 
     // On Page Load
     useEffect(() => {
@@ -36,7 +36,7 @@ const App = () => {
     }
 
     const handleResize = () => {
-        setIsMobile(window.innerWidth < 768);
+        setIsMobile(window.innerWidth < 800);
     }
 
 
