@@ -112,6 +112,7 @@ footer {
         z-index: 1;   
         width: 90%;
         margin: 1rem auto;
+        flex: 1;
     }
 
     .fa {
