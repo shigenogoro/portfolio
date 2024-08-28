@@ -3,3 +3,7 @@
   box-sizing: border-box;
   font-family: Roboto Mono, Helvetica, Arial, sans-serif;
 }
+
+html body {
+    height: 100%;
+}
