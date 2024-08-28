@@ -11,6 +11,9 @@ createRoot(document.getElementById('root')).render(
       <Routes>
         {/* Route for the home page */}
         <Route path="/" element={<App />} />
+
+        {/* Catch-all route in case of unmatched paths */}
+        <Route path="*" element={<h1>404 Not Found</h1>} />
       </Routes>
     </HashRouter>
   </StrictMode>,
