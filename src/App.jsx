@@ -58,7 +58,7 @@ const App = () => {
                               <Typewriter 
                                 options={{
                                     strings: [
-                                        'Sheng-Kai Wen (Kyle)',
+                                        'Sheng-Kai(Kyle) Wen',
                                         'an engineer',
                                         'a hockey player and softball player'
                                     ],
