@@ -128,6 +128,8 @@ footer {
     footer {
         width: 100%;
         background-color: rgba(13, 64, 101, 0.796);
+        position: absolute;
+        bottom: 0;
     }
     
     #main-links {
