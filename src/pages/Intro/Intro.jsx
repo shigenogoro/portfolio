@@ -10,7 +10,7 @@ const Intro = () => {
                 <p className="intro-content">
                     I'm Sheng-Kai(Kyle) Wen, a master's student in computer science at UMass Amherst, with a background in Physics and Electrical Engineering. 
                     <br /><br />
-                    Inspired by my experiences in coaching and volunteering in Taiwan, I'm passionate about using software to enhance education, I aim to bridge the gap between underprivileged communities and urban areas.
+                    Inspired by my experiences in coaching and volunteering in Taiwan, I'm passionate about using software to enhance education, and I aim to bridge the gap between underprivileged communities and urban areas.
                     <br /><br />
                     I'm adaptive, perseverant, and committed to impactful solutions.
                 </p>
