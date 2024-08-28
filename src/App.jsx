@@ -25,7 +25,7 @@ const App = () => {
     const scrollToSection = () => {
         const showSection = document.querySelector('.main-section');
         if(showSection) {
-            showSection.scrollIntoView({behavior: 'smooth', block: 'end'});
+            showSection.scrollIntoView({behavior: 'smooth'});
         }
     }
 

@@ -15,7 +15,7 @@ const Resume = () => {
         "Thesis/Dissertation Topic: Study of Epitaxial Growth of TiₓAl₍₁₋ₓ₎N by Plasma Assisted Molecular Beam Epitaxy"
     ];
     const ndhuDes = [
-        "BS in Electrical Engineering minor in Computer Science (GPA: 4.11/4.5) | 2020",
+        "B.S. in Electrical Engineering minor in Computer Science (GPA: 4.11/4.5) | 2020",
         "Sheng-Kai Wen, Wei Chi LU, Chun-Chieh Lin: Resistive Switching Memory Device Composed of an Organic Material - Silver Fungus. Poster presented at IEDMS  | 2019",
         "President of NDHU Toastmasters Club | 2017-2018",
         "Received “The Award of Outstanding Academic Performance” (ranked 3ʳᵈ in dept.) | 2017",
